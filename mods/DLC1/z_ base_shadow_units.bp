@@ -1,0 +1,1919 @@
+------------------------------------------------
+-- DLC1 BASE UNITS
+-- NOTES
+-- Merge for Unit ucx0103 isn't needed in base because its it defind in the shadow.
+--
+--
+--
+-- Cybran
+------------------------------------------------
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uca0105d1",
+    Defense = {
+        Health = 1500,
+        MaxHealth = 1500,
+        RegenRate = 3,
+        Shield = {
+            AllowPenetration = true,
+            ShieldDamageAbsorb = 0.85,
+            ShieldMaxHealth = 200,
+            ShieldRechargeTime = 10,
+            ShieldRegenRate = 2,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "ucb0205d1",
+    Defense = {
+        AirThreatLevel = 0,
+        EconomyThreatLevel = 10,
+        Health = 8000,
+        MaxHealth = 8000,
+        RegenRate = 15,
+        SurfaceThreatLevel = 0,
+    },
+    Economy = {
+        BuildRate = 1,
+        BuildTime = 195,
+        EnergyValue = 3600,
+        MassValue = 1100,
+    },
+    Weapons = {
+  [2] = {
+            Ammo = {
+                BuildTime = 90,
+                EnergyCost = 2500,
+                InitialStored = 0,
+                MassCost = 800,
+                MaxStorage = 5,
+            },
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "ucb0401d1",
+
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "ucb0704",
+    Economy = {
+        BuildTime = 30,
+        EnergyValue = 300,
+        MassValue = 4000,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "ucl0002",
+    Weapons = {
+        {
+            Damage = 100,
+            RateOfFire = 0.66,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "ucs0103",
+    Economy = {
+        BuildTime = 45,
+        EnergyValue = 650,
+        MassValue = 240,
+    },
+    Weapons = {
+        {
+            Damage = 110,
+            RateOfFire = 0.6,
+        },
+        {
+            Damage = 25,
+            RateOfFire = 1,
+        },
+        {
+            Damage = 100,
+            RateOfFire = 0.2,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "ucs0105",
+    Economy = {
+        BuildTime = 55,
+        EnergyValue = 300,
+        MassValue = 450,
+    },
+    Weapons = {
+        {
+            Damage = 75,
+            RateOfFire = 0.3,
+        },
+        {
+            Damage = 75,
+            RateOfFire = 0.3,
+        },
+        {
+            Damage = 75,
+            RateOfFire = 0.3,
+        },
+        {
+            Damage = 15,
+            RateOfFire = 1.2,
+        },
+        {
+            Damage = 15,
+            RateOfFire = 1.2,
+        },
+        {
+            Damage = 50,
+            RateOfFire = 0.2,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "ucs0901",
+    Economy = {
+        BuildRate = 1,
+        BuildTime = 60,
+        EnergyValue = 900,
+        MassValue = 400,
+    },
+    Weapons = {
+        {
+            Damage = 150,
+            RateOfFire = 0.4,
+        },
+        {
+            Damage = 150,
+            RateOfFire = 0.4,
+        },
+        {
+            Damage = 150,
+            RateOfFire = 0.4,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "ucx0104d1",
+    Defense = {
+        AirThreatLevel = 0,
+        EconomyThreatLevel = 0,
+        Health = 20000,
+        MaxHealth = 20000,
+        RegenRate = 71,
+        SurfaceThreatLevel = 5,
+    },
+    Economy = {
+        BuildTime = 115,
+        EnergyValue = 3000,
+        MassValue = 9000,
+    },
+    Transport = {
+        StorageSize = 30,
+        TeleportTime = 5,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "ucx0117d1",
+    Defense = {
+        AirThreatLevel = 0,
+        EconomyThreatLevel = 0,
+        Health = 40000,
+        MaxHealth = 100000,
+        RegenRate = 190,
+        SurfaceThreatLevel = 20,
+    },
+    Display = {
+        AnimationWalkRate = 1,
+    },
+    Economy = {
+        BuildTime = 300,
+        EnergyValue = 3000,
+        MassValue = 9000,
+    },
+    Physics = {
+        BackUpDistance = 12,
+        MaxAcceleration = 1.5,
+        MaxBrake = 10,
+        MaxSpeed = 2.6,
+        MaxSpeedReverse = 1,
+        TurnRate = 45,
+    },
+    Transport = {
+        StorageSize = 50,
+        TeleportTime = 5,
+    },
+    Weapons = {
+        {
+            Damage = 180,
+            RateOfFire = 1,
+        },
+        {
+            Damage = 150,
+            RateOfFire = 1.5,
+        },
+        {
+            Damage = 150,
+            RateOfFire = 1.5,
+        },
+        {
+            Damage = 30,
+            RateOfFire = 1,
+        },
+        {
+            Damage = 30,
+            RateOfFire = 1,
+        },
+        {
+            Damage = 30,
+            RateOfFire = 1,
+        },
+        {
+            Damage = 30,
+            RateOfFire = 1,
+        },
+    },
+}
+------------------------------------------------
+-- Illuminate
+------------------------------------------------ 
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uil0101",
+    Defense = {
+        Health = 1500,
+        MaxHealth = 1500,
+        RegenRate = 4,
+        Shield = {
+            AllowPenetration = true,
+            ShieldDamageAbsorb = 0.85,
+            ShieldMaxHealth = 150,
+            ShieldRechargeTime = 10,
+            ShieldReflectChance = 0.5,
+            ShieldReflectRandomVector = true,
+            ShieldRegenRate = 1,
+        },
+    },
+    Weapons = {
+        {
+            Damage = 60,
+            RateOfFire = 1,
+        },
+    },
+    Economy = {
+        BuildTime = 22,
+        EnergyValue = 10,
+        MassValue = 500,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uil0106d1",
+    Defense = {
+        Health = 800,
+        MaxHealth = 800,
+        RegenRate = 2,
+        Shield = {
+            AllowPenetration = true,
+            ShieldDamageAbsorb = 0.85,
+            ShieldMaxHealth = 150,
+            ShieldRechargeTime = 10,
+            ShieldReflectChance = 0.5,
+            ShieldReflectRandomVector = true,
+            ShieldRegenRate = 1,
+        },
+    },
+    Weapons = {
+        {
+            Damage = 500,
+            RateOfFire = 0.15,
+        },
+    },
+    Economy = {
+        BuildTime = 22,
+        EnergyValue = 10,
+        MassValue = 500,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uix0104d1",
+    Defense = {
+        AirThreatLevel = 0,
+        EconomyThreatLevel = 15,
+        Health = 11000,
+        MaxHealth = 11000,
+        RegenRate = 30,
+        SurfaceThreatLevel = 0,
+    },
+    Economy = {
+        BuildTime = 145,
+        EnergyValue = 3000,
+        MassValue = 9000,
+    },
+    Weapons = {
+        {
+            Ammo = {
+                BuildTime = 45,
+                EnergyCost = 4000,
+                InitialStored = 0,
+                MassCost = 1000,
+                MaxStorage = 1,
+            },
+            NukeData = {
+                EMPDuration = 60,
+                EMPRadius = 50,
+                StunDuration = 0,
+                StunRadius = 0,
+            },
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uix0105d1",
+    Air = {
+        MaxAirspeed = 5.5,
+        MinAirspeed = 3,
+        StartTurnDistance = 5,
+    },
+    Defense = {
+        AirThreatLevel = 5,
+        EconomyThreatLevel = 0,
+        Health = 30000,
+        MaxHealth = 30000,
+        RegenRate = 62,
+        SurfaceThreatLevel = 10,
+    },
+    Economy = {
+        BuildTime = 210,
+        EnergyValue = 3000,
+        MassValue = 9000,
+    },
+    Weapons = {
+        {
+            Damage = 750,
+            RateOfFire = 0.4,
+        },
+        {
+            Damage = 100,
+            RateOfFire = 3,
+        },
+        {
+            Damage = 100,
+            RateOfFire = 3,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uix0118d1",
+    Defense = {
+        AirThreatLevel = 0,
+        EconomyThreatLevel = 10,
+        Health = 5000,
+        MaxHealth = 5000,
+        RegenRate = 10,
+        SurfaceThreatLevel = 0,
+    },
+    Economy = {
+        BuildTime = 130,
+        EnergyValue = 3000,
+        MassValue = 9000,
+    },
+}
+------------------------------------------------
+-- UEF
+------------------------------------------------ 
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uub0705d1",
+    Defense = {
+        AirThreatLevel = 0,
+        EconomyThreatLevel = 10,
+        Health = 3000,
+        MaxHealth = 3000,
+        RegenRate = 6,
+        SurfaceThreatLevel = 0,
+    },
+    Economy = {
+        BuildTime = 45,
+        EnergyValue = 2500,
+        MassValue = 275,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uul0003d1",
+    Defense = {
+        Health = 2200,
+        MaxHealth = 2200,
+        RegenRate = 4,
+    },
+    Weapons = {
+        {
+            Damage = 30,
+            RateOfFire = 0.5,
+        },
+        {
+            Damage = 30,
+            RateOfFire = 0.5,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uux0105d1",
+    Defense = {
+        AirThreatLevel = 5,
+        EconomyThreatLevel = 0,
+        Health = 30000,
+        MaxHealth = 30000,
+        RegenRate = 60,
+        SurfaceThreatLevel = 10,
+    },
+    Economy = {
+        BuildTime = 180,
+        EnergyValue = 3000,
+        MassValue = 9000,
+    },
+    Physics = {
+        BackUpDistance = 10,
+        MaxAcceleration = 2,
+        MaxBrake = 10,
+        MaxSpeed = 5,
+        MaxSpeedReverse = 2.5,
+        MaxSteerForce = 5,
+        TurnRate = 30,
+    },
+    Transport = {
+        StorageSize = 50,
+        TeleportTime = 5,
+    },
+    Weapons = {
+        {
+            Damage = 150,
+            RateOfFire = 0.5,
+        },
+        {
+            Damage = 150,
+            RateOfFire = 0.5,
+        },
+        {
+            Damage = 150,
+            RateOfFire = 0.5,
+        },
+        {
+            Damage = 150,
+            RateOfFire = 0.5,
+        },
+        {
+            Damage = 150,
+            RateOfFire = 0.5,
+        },
+        {
+            Damage = 150,
+            RateOfFire = 0.5,
+        },
+        {
+            Damage = 150,
+            RateOfFire = 0.5,
+        },
+        {
+            Damage = 150,
+            RateOfFire = 0.5,
+        },
+        {
+            Damage = 150,
+            RateOfFire = 0.5,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uux0113d1",
+    Defense = {
+        AirThreatLevel = 0,
+        EconomyThreatLevel = 0,
+        Health = 40000,
+        MaxHealth = 40000,
+        RegenRate = 80,
+        SurfaceThreatLevel = 1,
+    },
+    Economy = {
+        BuildTime = 145,
+        EnergyValue = 3000,
+        MassValue = 9000,
+    },
+    Physics = {
+        MaxAcceleration = 1.5,
+        MaxBrake = 10,
+        MaxSpeed = 3.1,
+        MaxSpeedReverse = 0,
+        MaxSteerForce = 10,
+        TurnRate = 45,
+    },
+    Transport = {
+        StorageSize = 50,
+        TeleportTime = 5,
+    },
+    Weapons = {
+        {
+            Damage = 3750,
+            RateOfFire = 0.2,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uux0116d1",
+    Defense = {
+        AirThreatLevel = 30,
+        EconomyThreatLevel = 15,
+        Health = 7500,
+        MaxHealth = 7500,
+        RegenRate = 16,
+        Shield = {
+            AllowPenetration = false,
+            ShieldMaxHealth = 50000,
+            ShieldRegenRate = 0,
+        },
+    },
+    Economy = {
+        BuildTime = 190,
+        EnergyValue = 3000,
+        MassValue = 9000,
+    },
+}
+---------------------------------------------------------------------------------------------------------------
+-- DLC1 SHADOW UNITS
+-- Cybran
+---------------------------------------------------------------------------------------------------------------
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "ucb0001",
+    Economy = {
+        EnergyValue = 100,
+        MassValue = 2000,
+    },
+
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "ucb0002",
+    Economy = {
+        EnergyValue = 300,
+        MassValue = 4000,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "ucb0003",
+    Economy = {
+        EnergyValue = 300,
+        MassValue = 4000,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "ucb0011",
+    Economy = {
+        EnergyValue = 4000,
+        MassValue = 8000,
+    },
+
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "ucb0105",
+    Economy = {
+        BuildTime = 70,
+        CaptureTimeMult = 0.6,
+        EnergyValue = 2750,
+        MassValue = 750,
+    },
+    Weapons = {
+        {
+            Damage = 875,
+            MaxRadius = 500,
+            MinRadius = 150,
+            RateOfFire = 0.2,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "ucb0202",
+    Defense = {
+        Health = 1500,
+        MaxHealth = 1500,
+        RegenRate = 4,
+        Shield = {
+            AllowPenetration = true,
+            ShieldDamageAbsorb = 0.85,
+            ShieldMaxHealth = 8000,
+            ShieldRechargeTime = 40,
+            ShieldRegenRate = 80,
+        },
+    },
+    Economy = {
+        BuildTime = 40,
+        CaptureTimeMult = 0.6,
+        EnergyValue = 750,
+        MassValue = 300,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "ucb0204",
+    Economy = {
+        BuildRate = 1,
+        BuildTime = 180,
+        CaptureTimeMult = 0.6,
+        EnergyValue = 3000,
+        MassValue = 900,
+    },
+    Weapons = {
+  [2] = {
+            Damage = 1000,
+            RateOfFire = 0.1,
+        },
+  [3] = {
+            Ammo = {
+                BuildTime = 180,
+                EnergyCost = 4000,
+                InitialStored = 0,
+                MassCost = 1000,
+                MaxStorage = 5,
+            },
+            NukeData = {
+                InnerDamage = 15000,
+                InnerRadius = 20,
+                InnerToOuterSegmentCount = 10,
+                OuterDamage = 0,
+                OuterRadius = 40,
+                PulseCount = 10,
+                PulseDamage = 1000,
+                StunDuration = 5,
+                TimeToOuterRadius = 5,
+            },
+        },
+  [4] = {
+            Ammo = {
+                BuildTime = 60,
+                EnergyCost = 1500,
+                InitialStored = 0,
+                MassCost = 450,
+                MaxStorage = 10,
+            },
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "ucb0701",
+    Economy = {
+        BuildTime = 25,
+        CaptureTimeMult = 0.6,
+        EnergyValue = 10,
+        MassValue = 400,
+        ProductionPerSecondMass = 7.5,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "ucb0702",
+    Economy = {
+        BuildTime = 24,
+        EnergyValue = 10,
+        MassValue = 400,
+        ProductionPerSecondEnergy = 1.5,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "ucl0103",
+    Defense = {
+        Health = 1100,
+        MaxHealth = 1100,
+        RegenRate = 2,
+        Shield = {
+            AllowPenetration = true,
+            ShieldDamageAbsorb = 0.85,
+            ShieldMaxHealth = 110,
+            ShieldRechargeTime = 10,
+            ShieldRegenRate = 2,
+        },
+    },
+    Weapons = {
+        {
+            Damage = 35,
+            RateOfFire = 0.1,
+        },
+        {
+            Damage = 17,
+            RateOfFire = 2.25,
+        },
+        {
+            Damage = 17,
+            RateOfFire = 2.25,
+        },
+    },
+    Economy = {
+        BuildTime = 22,
+        EnergyValue = 10,
+        MassValue = 500,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "ucl0204",
+    Defense = {
+        Health = 700,
+        MaxHealth = 700,
+        RegenRate = 2,
+        Shield = {
+            AllowPenetration = true,
+            ShieldDamageAbsorb = 0.85,
+            ShieldEnergyDrainRechargeTime = 5,
+            ShieldMaxHealth = 140,
+            ShieldRechargeTime = 10,
+            ShieldRegenRate = 1,
+            ShieldRegenStartTime = 1,
+        },
+    },
+    Weapons = {
+        {
+            Damage = 15,
+            RateOfFire = 1,
+        },
+        {
+            Damage = 15,
+            RateOfFire = 1,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "ucx0103",
+    Defense = {
+        Health = 26500,
+        MaxHealth = 26500,
+        RegenRate = 71,
+        Shield = {
+            ShieldDamageAbsorb = 0.85,
+            ShieldMaxHealth = 12000,
+            ShieldRechargeTime = 20,
+            ShieldReflectChance = 1,
+            ShieldRegenRate = 80,
+            ShieldSize = 0.25,
+            SizeX = 16,
+            SizeY = 0.5,
+            SizeZ = 16,
+        },
+    },
+    Display = {
+        AnimationWalkRate = 1.0,
+    },
+    Economy = {
+        BuildTime = 115,
+        EnergyValue = 3000,
+        MassValue = 9000,
+    },
+    Physics = {
+        MaxAcceleration = 1.5,
+        MaxBrake = 10,
+        MaxSpeed = 3.1,
+        MaxSpeedReverse = 0,
+        TurnRate = 45,
+    },
+    Transport = {
+        StorageSize = 30,
+        TeleportTime = 5,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "ucx0111",
+    Defense = {
+        Health = 51300,
+        MaxHealth = 51300,
+        RegenRate = 119,
+    },
+    Display = {
+        AnimationWalkRate = 1.2,
+    },
+    Economy = {
+        BuildTime = 190,
+        EnergyValue = 3000,
+        MassValue = 9000,
+    },
+    Physics = {
+        MaxAcceleration = 1.5,
+        MaxBrake = 10,
+        MaxSpeed = 3.7,
+        MaxSpeedReverse = 0,
+        MaxSteerForce = 10,
+        TurnRate = 45,
+    },
+    Transport = {
+        StorageSize = 50,
+        TeleportTime = 5,
+    },
+    Weapons = {
+        {
+            Damage = 220,
+            RateOfFire = 5,
+        },
+        {
+            Damage = 85,
+            RateOfFire = 3,
+        },
+        {
+            Damage = 220,
+            RateOfFire = 0.1,
+        },
+        {
+            Damage = 220,
+            RateOfFire = 0.1,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "ucx0113",
+    Defense = {
+        AirThreatLevel = 0,
+        EconomyThreatLevel = 0,
+        Health = 30000,
+        MaxHealth = 30000,
+        RegenRate = 71,
+        SurfaceThreatLevel = 10,
+    },
+    Economy = {
+        BuildTime = 190,
+        CaptureTimeMult = 0.6,
+        EnergyValue = 3000,
+        MassValue = 9000,
+        SacrificeCaptureTimeMult = 0.2,
+    },
+    Weapons = {
+        {
+          
+        },
+        {
+            Damage = 15,
+            RateOfFire = 1,
+        },
+        {
+            Damage = 15,
+            RateOfFire = 1,
+        },
+        {
+            Damage = 15,
+            RateOfFire = 1,
+        },
+        {
+            Damage = 15,
+            RateOfFire = 1,
+        },
+        {
+            Damage = 15,
+            RateOfFire = 1,
+        },
+        {
+            Damage = 15,
+            RateOfFire = 1,
+        },
+        {
+            Damage = 15,
+            RateOfFire = 1,
+        },
+        {
+            Damage = 15,
+            RateOfFire = 1,
+        },
+        {
+            Damage = 200,
+            RateOfFire = 0.25,
+        },
+        {
+            Damage = 200,
+            RateOfFire = 0.25,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "ucx0114",
+    Defense = {
+        AirThreatLevel = 0,
+        EconomyThreatLevel = 10,
+        Health = 16500,
+        MaxHealth = 16500,
+        RegenRate = 60,
+        SurfaceThreatLevel = 0,
+    },
+    Economy = {
+        BuildTime = 190,
+        EnergyValue = 3000,
+        MassValue = 9000,
+    },
+}
+------------------------------------------------
+-- Illuminate
+------------------------------------------------
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uia0103",
+    Defense = {
+        Health = 1450,
+        MaxHealth = 1450,
+        RegenRate = 4,
+        Shield = {
+            AllowPenetration = true,
+            ShieldDamageAbsorb = 0.85,
+            ShieldMaxHealth = 150,
+            ShieldRechargeTime = 10,
+            ShieldReflectChance = 0.5,
+            ShieldReflectRandomVector = true,
+            ShieldRegenRate = 3,
+        },
+    },
+    Weapons = {
+        {
+            Damage = 52,
+            RateOfFire = 1.25,
+        },
+        {
+            Damage = 30,
+            RateOfFire = 0.2,
+        },
+    },
+    Economy = {
+        BuildTime = 22,
+        EnergyValue = 10,
+        MassValue = 600,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uia0104", -- Weedoboth Fighter / Bomber
+    Defense = {
+        Health = 900,
+        MaxHealth = 900,
+        RegenRate = 3,
+        Shield = {
+            AllowPenetration = true,
+            ShieldDamageAbsorb = 0.85,
+            ShieldMaxHealth = 200,
+            ShieldRechargeTime = 10,
+            ShieldReflectChance = 0.5,
+            ShieldReflectRandomVector = true,
+            ShieldRegenRate = 1,
+        },
+    },
+    Weapons = {
+        {
+            Damage = 50,
+            RateOfFire = 1,
+        },
+        {
+            Damage = 245,
+            RateOfFire = 0.1,      
+        },
+    },
+    Economy = {
+        BuildTime = 22,
+        EnergyValue = 10,
+        MassValue = 600,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uia0901", -- HeeHola Air Transport
+    Defense = {
+        Health = 3000,
+        MaxHealth = 3000,
+        RegenRate = 5,
+        Shield = {
+            AllowPenetration = true,
+            ShieldDamageAbsorb = 0.85,
+            ShieldMaxHealth = 800,
+            ShieldRechargeTime = 10,
+            ShieldReflectChance = 0.5,
+            ShieldReflectRandomVector = true,
+            ShieldRegenRate = 4,
+        },
+    },
+    Economy = {
+        BuildTime = 22,
+        EnergyValue = 10,
+        MassValue = 600,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uib0001",
+    Economy = {
+        EnergyValue = 100,
+        MassValue = 2000,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uib0002",
+    Economy = {
+        EnergyValue = 300,
+        MassValue = 4000,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uib0011",
+    Economy = {
+        EnergyValue = 4000,
+        MassValue = 8000,
+    },
+
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uib0101",
+    Defense = {
+        Health = 4000,
+        MaxHealth = 4000,
+        RegenRate = 10,
+        Shield = {
+            AllowPenetration = true,
+            ShieldDamageAbsorb = 0.85,
+            ShieldMaxHealth = 1000,
+            ShieldRechargeTime = 10,
+            ShieldReflectChance = 0.5,
+            ShieldReflectRandomVector = true,
+            ShieldRegenRate = 4,
+        },
+    },
+    Economy = {
+        BuildTime = 28,
+        EnergyValue = 440,
+        MassValue = 500,
+    },
+    Weapons = {
+        {
+            Damage = 150,
+            RateOfFire = 2,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uib0102",
+    Defense = {
+        Health = 3800,
+        MaxHealth = 3800,
+        RegenRate = 6,
+        Shield = {
+            AllowPenetration = true,
+            ShieldDamageAbsorb = 0.85,
+            ShieldMaxHealth = 950,
+            ShieldRechargeTime = 10,
+            ShieldReflectChance = 0.5,
+            ShieldReflectRandomVector = true,
+            ShieldRegenRate = 2,
+        },
+    },
+    Economy = {
+        BuildTime = 28,
+        EnergyValue = 560,
+        MassValue = 225,
+    },
+    Weapons = {
+        {
+            Damage = 120,
+            RateOfFire = 1.5,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uib0106",
+    Economy = {
+        BuildTime = 35,
+        EnergyValue = 300,
+        MassValue = 350,
+    },
+    Weapons = {
+        {
+            Damage = 1500,
+            RateOfFire = 0.1,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uib0107",
+    Economy = {
+        BuildTime = 150,
+        EnergyValue = 2500,
+        MassValue = 700,
+    },
+    Weapons = {
+        {
+            Ammo = {
+                BuildTime = 180,
+                EnergyCost = 4000,
+                InitialStored = 0,
+                MassCost = 1000,
+                MaxStorage = 5,
+            },
+            NukeData = {
+                InnerDamage = 15000,
+                InnerRadius = 20,
+                InnerToOuterSegmentCount = 10,
+                OuterDamage = 0,
+                OuterRadius = 40,
+                PulseCount = 10,
+                PulseDamage = 1000,
+                StunDuration = 5,
+                TimeToOuterRadius = 5,
+            },
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uib0202",
+    Defense = {
+        Health = 1500,
+        MaxHealth = 1500,
+        RegenRate = 4,
+        Shield = {
+            AllowPenetration = true,
+            ShieldDamageAbsorb = 0.85,
+            ShieldMaxHealth = 10000,
+            ShieldRechargeTime = 40,
+            ShieldReflectChance = 0.5,
+            ShieldReflectRandomVector = true,
+            ShieldRegenRate = 50,
+        },
+    },
+    Economy = {
+        BuildTime = 40,
+        EnergyValue = 750,
+        MassValue = 300,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uib0203",
+    Economy = {
+        BuildTime = 120,
+        EnergyValue = 1000,
+        MassValue = 450,
+    },
+    Weapons = {
+        {
+            Ammo = {
+                BuildTime = 60,
+                EnergyCost = 1500,
+                InitialStored = 0,
+                MassCost = 450,
+                MaxStorage = 10,
+            },
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uib0301",
+
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uib0701",
+    Economy = {
+        BuildTime = 25,
+        EnergyValue = 10,
+        MassValue = 400,
+        ProductionPerSecondMass = 7.5,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uib0702",
+    Economy = {
+        BuildTime = 24,
+        EnergyValue = 10,
+        MassValue = 400,
+        ProductionPerSecondEnergy = 1.5,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uib0704",
+    Economy = {
+        BuildTime = 30,
+        EnergyValue = 300,
+        MassValue = 4000,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uib0801",
+    Economy = {
+        BuildRate = 1,
+        BuildTime = 42,
+        EnergyValue = 300,
+        MassValue = 4000,
+        ProductionPerSecondResearch = 0.005,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uil0001",
+    Defense = {
+        EconomyThreatLevel = 10,
+        Health = 20000,
+        MaxHealth = 20000,
+        RegenRate = 24,
+        Shield = {
+            ShieldDamageAbsorb = 0.85,
+            ShieldMaxHealth = 12000,
+            ShieldRechargeTime = 45,
+            ShieldReflectChance = 0.5,
+            ShieldReflectRandomVector = true,
+            ShieldRegenRate = 100,
+        },
+        SurfaceThreatLevel = 5,
+    },
+    Transport = {
+        StorageSize = 15,
+        TeleportTime = 6,
+    },
+    Weapons = {
+        {
+            Damage = 400,
+            RateOfFire = 0.5,
+        },
+        {
+            Damage = 1000,
+            RateOfFire = 1,
+        },
+        {
+            --DeathWeapon
+        },
+        {
+            Damage = 125,
+            RateOfFire = 1,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uil0202",
+    Defense = {
+        AirThreatLevel = 0,
+        EconomyThreatLevel = 0,
+        Health = 500,
+        MaxHealth = 500,
+        RegenRate = 1,
+        SurfaceThreatLevel = 1,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uil0203",
+    Defense = {
+        AirThreatLevel = 0,
+        EconomyThreatLevel = 0,
+        Health = 600,
+        MaxHealth = 600,
+        RegenRate = 1,
+        SurfaceThreatLevel = 1,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uix0112",
+    Air = {
+        MaxAirspeed = 8,
+        MinAirspeed = 0,
+        StartTurnDistance = 50,
+    },
+    Defense = {
+        AirThreatLevel = 0,
+        EconomyThreatLevel = 0,
+        Health = 27500,
+        MaxHealth = 27500,
+        RegenRate = 71,
+        SurfaceThreatLevel = 20,
+    },
+    Economy = {
+        BuildTime = 190,
+        EnergyValue = 3000,
+        MassValue = 9000,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uix0115",
+    Defense = {
+        AirThreatLevel = 0,
+        EconomyThreatLevel = 0,
+        Health = 26500,
+        MaxHealth = 26500,
+        RegenRate = 60,
+        SurfaceThreatLevel = 20,
+    },
+    Economy = {
+        BuildTime = 190,
+        EnergyValue = 3000,
+        MassValue = 9000,
+    },
+    Physics = {
+        MaxAcceleration = 1.5,
+        MaxBrake = 10,
+        MaxSpeed = 3.1,
+        MaxSpeedReverse = 0,
+        TurnRate = 45,
+    },
+    Transport = {
+        StorageSize = 50,
+        TeleportTime = 5,
+    },
+}
+------------------------------------------------
+-- UEF
+------------------------------------------------ 
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uub0001",
+    Economy = {
+        EnergyValue = 100,
+        MassValue = 2000,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uub0002",
+    Economy = {
+        EnergyValue = 300,
+        MassValue = 4000,
+    },
+
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uub0003",
+    Economy = {
+        EnergyValue = 300,
+        MassValue = 4000,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uub0011",
+    Economy = {
+        EnergyValue = 4000,
+        MassValue = 8000,
+    },
+
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uub0102",
+    Defense = {
+        Health = 4500,
+        MaxHealth = 4500,
+        RegenRate = 6,
+    },
+    Economy = {
+        BuildTime = 28,
+        EnergyValue = 560,
+        MassValue = 225,
+    },
+    Weapons = {
+        {
+            Damage = 27,
+            RateOfFire = 1.5,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uub0105",
+    Economy = {
+        BuildTime = 70,
+        EnergyValue = 2800,
+        MassValue = 800,
+    },
+    Weapons = {
+        {
+            Damage = 700,
+            RateOfFire = 0.25,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uub0107",
+    Economy = {
+        BuildTime = 150,
+        EnergyValue = 2500,
+        MassValue = 700,
+    },
+    Weapons = {
+        {
+            Damage = 500,
+            RateOfFire = 0.1,
+        },
+        {
+            Ammo = {
+                BuildTime = 180,
+                EnergyCost = 4000,
+                InitialStored = 0,
+                MassCost = 1000,
+                MaxStorage = 5,
+            },
+            NukeData = {
+                InnerDamage = 15000,
+                InnerRadius = 20,
+                InnerToOuterSegmentCount = 10,
+                OuterDamage = 0,
+                OuterRadius = 40,
+                PulseCount = 10,
+                PulseDamage = 1000,
+                StunDuration = 5,
+                TimeToOuterRadius = 5,
+            },
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uub0202",
+    Defense = {
+        Health = 1500,
+        MaxHealth = 1500,
+        RegenRate = 4,
+        Shield = {
+            AllowPenetration = false,
+            ShieldMaxHealth = 10000,
+            ShieldRechargeTime = 40,
+            ShieldRegenRate = 100,
+        },
+    },
+    Economy = {
+        BuildTime = 40,
+        EnergyValue = 750,
+        MassValue = 300,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uub0203",
+    Economy = {
+        BuildTime = 120,
+        EnergyValue = 1000,
+        MassValue = 450,
+    },
+    Weapons = {
+        {
+            Ammo = {
+                BuildTime = 60,
+                EnergyCost = 1500,
+                InitialStored = 0,
+                MassCost = 450,
+                MaxStorage = 10,
+            },
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uub0701",
+    Economy = {
+        BuildTime = 25,
+        EnergyValue = 10,
+        MassValue = 400,
+        ProductionPerSecondMass = 7.5,
+    },
+    Weapons = {
+        {
+            Damage = 22,
+            RateOfFire = 1.5,
+        },
+        {
+            Damage = 200,
+            RateOfFire = 1.5,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uub0704",
+    Economy = {
+        BuildTime = 30,
+        EnergyValue = 300,
+        MassValue = 4000,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uul0001",
+    Defense = {
+        AirThreatLevel = 0,
+        ArmorType = 'Commander',
+        EconomyThreatLevel = 10,
+        Health = 20000,
+        MaxHealth = 20000,
+        RegenRate = 24,
+        SurfaceThreatLevel = 5,
+    },
+    Weapons = {
+  [2] = {
+            Damage = 400,
+            RateOfFire = 0.5,
+        },
+        {
+            Damage = 1000,
+            RateOfFire = 1,
+        },
+  [5] = {
+            Damage = 37,
+            RateOfFire = 1,
+        },
+        {
+            Damage = 500,
+            RateOfFire = 0.2,
+        },
+        {
+            Damage = 120,
+            RateOfFire = 0.1,
+        },
+        {
+            Damage = 100,
+            RateOfFire = 0.2,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uul0002",
+
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uul0101",
+    Defense = {
+        Health = 1500,
+        MaxHealth = 1500,
+        RegenRate = 4,
+        Shield = {
+            AllowPenetration = false,
+            ShieldMaxHealth = 150,
+            ShieldRechargeTime = 10,
+            ShieldRegenRate = 3,
+        },
+    },
+    Weapons = {
+        {
+            Damage = 60,
+            RateOfFire = 0.5,
+        },
+        {
+            Damage = 50,
+            RateOfFire = 0.5,
+        },
+        {
+            Damage = 17,
+            RateOfFire = 1,
+        },
+    },
+    Economy = {
+        BuildTime = 22,
+        EnergyValue = 10,
+        MassValue = 500,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uul0102",
+    Defense = {
+        Health = 750,
+        MaxHealth = 750,
+        RegenRate = 2,
+        Shield = {
+            ShieldMaxHealth = 75,
+            ShieldRechargeTime = 10,
+            ShieldRegenRate = 1,
+        },
+    },
+    Weapons = {
+        {
+            Damage = 50,
+            RateOfFire = 0.2,
+        },
+        {
+            Damage = 30,
+            RateOfFire = 0.2,
+        },
+        {
+            Damage = 15,
+            RateOfFire = 1,
+        },
+    },
+    Economy = {
+        BuildTime = 22,
+        EnergyValue = 10,
+        MassValue = 500,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uul0103",
+    Defense = {
+        Health = 1100,
+        MaxHealth = 1100,
+        RegenRate = 2,
+        Shield = {
+            AllowPenetration = false,
+            ShieldMaxHealth = 110,
+            ShieldRechargeTime = 10,
+            ShieldRegenRate = 2,
+        },
+    },
+    Weapons = {
+        {
+            Damage = 50,
+            RateOfFire = 1.5,
+        },
+        {
+            Damage = 22,
+            RateOfFire = 1,
+        },
+    },
+    Economy = {
+        BuildTime = 22,
+        EnergyValue = 10,
+        MassValue = 500,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uul0104",
+    Defense = {
+        Health = 950,
+        MaxHealth = 950,
+        RegenRate = 3,
+        Shield = {
+            AllowPenetration = false,
+            ShieldMaxHealth = 95,
+            ShieldRechargeTime = 10,
+            ShieldRegenRate = 3,
+        },
+    },
+    Weapons = {
+        {
+            Damage = 100,
+            RateOfFire = 0.1,
+        },
+        {
+            Damage = 23,
+            RateOfFire = 1,
+        },
+    },
+    Economy = {
+        BuildTime = 22,
+        EnergyValue = 10,
+        MassValue = 500,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uul0105",
+    Defense = {
+        Health = 750,
+        MaxHealth = 750,
+        RegenRate = 2,
+        Shield = {
+            AllowPenetration = false,
+            ShieldMaxHealth = 75,
+            ShieldRechargeTime = 10,
+            ShieldRegenRate = 1,
+        },
+    },
+    Weapons = {
+        {
+            Damage = 11,
+            RateOfFire = 1,
+        },
+        {
+            Damage = 25,
+            RateOfFire = 1,
+        },
+    },
+    Economy = {
+        BuildTime = 22,
+        EnergyValue = 10,
+        MassValue = 500,
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uul0201",
+    Defense = {
+        Health = 560,
+        MaxHealth = 560,
+        RegenRate = 1,
+        Shield = {
+            AllowPenetration = false,
+            ShieldMaxHealth = 600,
+            ShieldRechargeTime = 10,
+            ShieldRegenRate = 1,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uul0203",
+    Defense = {
+        Health = 875,
+        MaxHealth = 875,
+        RegenRate = 2,
+    },
+    Weapons = {
+        {
+            Damage = 2,
+            RateOfFire = 3,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uus0102",
+    Economy = {
+        BuildTime = 35,
+        CaptureTimeMult = 0.6,
+        EnergyValue = 100,
+        MassValue = 2600,
+        SacrificeCaptureTimeMult = 0.2,
+    },
+    Weapons = {
+        {
+            Damage = 180,
+            RateOfFire = 0.1,
+        },
+        {
+            Damage = 60,
+            RateOfFire = 1,
+        },
+        {
+            Damage = 60,
+            RateOfFire = 1,
+        },
+        {
+            Damage = 130,
+            RateOfFire = 1,
+        },
+        {
+            Damage = 130,
+            RateOfFire = 1,
+        },
+        {
+            Damage = 2,
+            RateOfFire = 3,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uus0104",
+    Economy = {
+        BuildTime = 30,
+        EnergyValue = 100,
+        MassValue = 1000,
+    },
+    Weapons = {
+        {
+            Damage = 100,
+            RateOfFire = 0.2,
+        },
+        {
+            Damage = 100,
+            RateOfFire = 1,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uus0105",
+    Economy = {
+        BuildTime = 55,
+        EnergyValue = 100,
+        MassValue = 4500,
+    },
+    Weapons = {
+        {
+            Damage = 75,
+            RateOfFire = 0.3,
+        },
+        {
+            Damage = 75,
+            RateOfFire = 0.3,
+        },
+        {
+            Damage = 75,
+            RateOfFire = 0.3,
+        },
+        {
+            Damage = 75,
+            RateOfFire = 0.3,
+        },
+        {
+            Damage = 75,
+            RateOfFire = 0.3,
+        },
+        {
+            Damage = 75,
+            RateOfFire = 0.3,
+        },
+        {
+            Damage = 10,
+            RateOfFire = 1,
+        },
+        {
+            Damage = 10,
+            RateOfFire = 1,
+        },
+        {
+            Damage = 10,
+            RateOfFire = 1,
+        },
+        {
+            Damage = 10,
+            RateOfFire = 1,
+        },
+        {
+            Damage = 2,
+            RateOfFire = 3,
+        },
+    },
+}
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uux0104",
+    Defense = {
+        AirThreatLevel = 5,
+        EconomyThreatLevel = 0,
+        Health = 16500,
+        MaxHealth = 16500,
+        RegenRate = 20,
+        SurfaceThreatLevel = 0,
+    },
+    Economy = {
+        BuildEnergyCostMultiplier = 0.33,
+        BuildMassCostMultiplier = 0.33,
+        BuildRate = 1,
+        BuildTime = 110,
+        EnergyValue = 3000,
+        MassValue = 9000,
+    },
+    Physics = {
+        BackUpDistance = 15,
+        DiveSurfaceSpeed = 1.33,
+        Elevation = -5.3,
+        MaxAcceleration = 1.5,
+        MaxBrake = 10,
+        MaxSpeed = 2.5,
+        MaxSpeedReverse = 2.5,
+        MaxSteerForce = 5,
+        TurnRate = 24,
+    },
+    Weapons = {
+        {
+            Damage = 115,
+            RateOfFire = 0.75,
+        },
+        {
+            Damage = 115,
+            RateOfFire = 0.75,
+        },
+        {
+            Damage = 50,
+            RateOfFire = 0.2,
+        },
+        {
+            Damage = 50,
+            RateOfFire = 0.2,
+        },
+    },
+}
