@@ -3,6 +3,8 @@
 	
 	This mode is more realistic and render the game more interesting.
 
+	This mode uses the lasted official DLC
+
 	To build it :
 	create a directory z_balanced that contains my 2 repository directory (mods & units)
 
